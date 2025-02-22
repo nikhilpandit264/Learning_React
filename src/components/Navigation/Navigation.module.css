@@ -1,0 +1,28 @@
+.navigation {
+    padding: 0 8px;
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navigation ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    font-weight: 500;
+  }
+  @media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        height: auto;
+        padding: 16px;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+        padding: 0;
+    }
+}
